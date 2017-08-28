@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2017-08-11T16:34:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ info ] z.cn/api/v1/product/recent [运行时间：0.073202s][吞吐率：13.66req/s] [内存消耗：2,067.86kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004900s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005496s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.002193s ]
+---------------------------------------------------------------
+[ 2017-08-11T16:34:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ info ] z.cn/api/v1/theme/3 [运行时间：0.112850s][吞吐率：8.86req/s] [内存消耗：2,321.89kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001015s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003436s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.006923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.003091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.003272s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.004250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.003025s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000880s ]

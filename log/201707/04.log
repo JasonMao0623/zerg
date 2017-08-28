@@ -1,0 +1,11 @@
+---------------------------------------------------------------
+[ 2017-07-04T22:48:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ info ] z.cn/api/v1/banner/1 [运行时间：0.064164s][吞吐率：15.59req/s] [内存消耗：2,185.42kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002874s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.003732s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001605s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.003470s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.004046s ]

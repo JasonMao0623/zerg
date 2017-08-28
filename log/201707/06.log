@@ -1,0 +1,74 @@
+---------------------------------------------------------------
+[ 2017-07-06T21:46:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ info ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.119919s][吞吐率：8.34req/s] [内存消耗：2,079.41kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007620s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008587s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.005780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002854s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2017-07-06T21:48:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ info ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.052266s][吞吐率：19.13req/s] [内存消耗：2,077.70kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000824s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003942s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.003215s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2017-07-06T21:48:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ info ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.053975s][吞吐率：18.53req/s] [内存消耗：2,079.41kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003377s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002712s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001204s ]
+---------------------------------------------------------------
+[ 2017-07-06T21:50:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ info ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.058977s][吞吐率：16.96req/s] [内存消耗：2,079.41kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003353s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2017-07-06T22:13:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3,4
+[ info ] z.cn/api/v1/theme?ids=1,2,3,4 [运行时间：0.060407s][吞吐率：16.55req/s] [内存消耗：2,079.41kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3,4) [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2017-07-06T22:13:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=5
+[ info ] z.cn/api/v1/theme?ids=5 [运行时间：0.044469s][吞吐率：22.49req/s] [内存消耗：2,075.23kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003261s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (5) [ RunTime:0.001583s ]
+---------------------------------------------------------------
+[ 2017-07-06T22:13:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=5,6,7
+[ info ] z.cn/api/v1/theme?ids=5,6,7 [运行时间：0.041325s][吞吐率：24.20req/s] [内存消耗：2,076.64kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (5,6,7) [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2017-07-06T22:13:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1
+[ info ] z.cn/api/v1/theme?ids=1 [运行时间：0.045858s][吞吐率：21.81req/s] [内存消耗：2,077.50kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003571s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1) [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16) [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49) [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2017-07-06T22:14:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1
+[ info ] z.cn/api/v1/theme?ids=1 [运行时间：0.047635s][吞吐率：20.99req/s] [内存消耗：2,077.50kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1) [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002344s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16) [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49) [ RunTime:0.000520s ]
